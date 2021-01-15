@@ -107,9 +107,35 @@ ul li:hover{
 
 input[type=text]:focus {
     background-color: darksalmon;
-    border:transparent
+    border-color:transparent;
   }
   input[type=email]:focus {
     background-color: darksalmon;
-    border:transparent
+    border-color:transparent;
   }
+
+.button{
+    background-color: tomato;
+    width: 10%;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.links-flex{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactlinks{
+    font-weight: bold;
+    padding: 30px;
+    background-color: rgba(118, 122, 119, 0.384);
+    border-radius: 20%;
+}
+
+.contactlinks:hover{
+    font-weight: bolder;
+    background-color: darksalmon;
+}
