@@ -7,6 +7,9 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
 }
 :root{
     --background-gray: rgba(118, 122, 119, 0.384);
+    --text-margin: 10%;
+    --text-font: 18px;
+    --text-padding: 15px;
 }
 
 
@@ -141,4 +144,14 @@ input[type=text]:focus {
 .contactlinks:hover{
     font-weight: bolder;
     background-color: darksalmon;
+}
+
+
+/*END OF INDEX AND NAVBAR */
+
+.main-text{
+    background-color: var(--background-gray);
+    margin: var(--text-margin);
+    font-size: var(--text-font);
+    padding:var(--text-padding);
 }
