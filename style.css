@@ -190,3 +190,23 @@ ol {
     display: inline-block;
     font-size: 1.5em;
   }
+
+#tips-videos{
+    line-height: 20vh;
+}
+
+.tomato-tips-videos{
+    background-color: var(--background-gray);
+    padding: var(--text-margin);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.iframetips{
+    width: auto;
+
+    margin: 20px;
+}
