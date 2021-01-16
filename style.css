@@ -147,11 +147,25 @@ input[type=text]:focus {
 }
 
 
-/*END OF INDEX AND NAVBAR */
+/*END OF INDEX AND NAVBAR 
+
+START OF PAGE 1*/
 
 .main-text{
     background-color: var(--background-gray);
     margin: var(--text-margin);
     font-size: var(--text-font);
     padding:var(--text-padding);
+    text-align: justify ;
+}
+
+.main-text-img{
+    float: right;
+    margin: 15px;
+    width: 20%;
+
+}
+
+#fruitorvegetable{
+    line-height: 20vh;
 }
