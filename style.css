@@ -8,7 +8,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
 :root{
     --background-gray: rgba(118, 122, 119, 0.384);
     --text-margin: 10%;
-    --text-font: 18px;
+    --text-font: 1.5vw;
     --text-padding: 15px;
 }
 
@@ -84,7 +84,7 @@ b{
     justify-content: space-between;
     margin: 10%;
     padding: 15px;
-    font-size: 18px;
+    font-size: var(--text-font);
 }
 /* TABLE OF CONTENTS */
 #header-contents{
@@ -107,7 +107,7 @@ ul li:hover{
     background-color:var(--background-gray);
     margin: 10%;
     padding: 15px;
-    font-size: 18px;
+    font-size: var(--text-font);
 
 }
 
@@ -255,4 +255,49 @@ tr:nth-child(even){
     object-fit: cover;
     width: 100%;
 
+  }
+
+
+
+
+  /*ANIMATION */
+
+  #tomato-animation {  
+    width: 10em;
+    height: 10em; 
+    margin: 20px auto;
+    border-radius: 50%;
+
+ }
+ 
+ .animated { 
+     animation-duration: 3s; 
+     animation-fill-mode: both; 
+     animation-iteration-count:infinite; 
+ } 
+ 
+ @keyframes zoomIn { 
+     0% { 
+         opacity: 0; 
+         transform: scale3d(.3, .3, .3); 
+         background-color:mediumseagreen;
+     } 
+     50% { 
+         opacity: 1;
+         background-color: yellowgreen; 
+     } 
+
+     100%{
+         background-color: tomato;
+     }
+ } 
+ .zoomIn { 
+     animation-name: zoomIn; 
+ }
+
+
+ @media screen and (max-width: 600px) {
+    body {
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,99,71,1) 100%);
+    }
   }
