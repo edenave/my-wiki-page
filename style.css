@@ -210,3 +210,23 @@ ol {
 
     margin: 20px;
 }
+
+
+
+/* PAGE 3 CSS START */
+
+
+#tablejokes{
+    width: 100%;
+
+}
+
+td, th{
+    padding: 1%;
+    border-bottom: 2px dashed darksalmon;
+}
+
+tr:nth-child(even){
+    background-color: var(--background-gray);}
+
+}
