@@ -9,7 +9,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
     --background-gray: rgba(118, 122, 119, 0.384);
     --text-margin: 10%;
     --text-font: 1.5vw;
-    --text-padding: 15px;
+    --text-padding: 2vw;
 }
 
 
@@ -83,7 +83,7 @@ b{
     flex-direction: row;
     justify-content: space-between;
     margin: 10%;
-    padding: 15px;
+    padding: 2vw;
     font-size: var(--text-font);
 }
 /* TABLE OF CONTENTS */
@@ -106,7 +106,7 @@ ul li:hover{
 #contact{
     background-color:var(--background-gray);
     margin: 10%;
-    padding: 15px;
+    padding: 2vw;
     font-size: var(--text-font);
 
 }
@@ -136,7 +136,7 @@ input[type=text]:focus {
 
 .contactlinks{
     font-weight: bold;
-    padding: 30px;
+    padding: 4vw;
     background-color:var(--background-gray);
     border-radius: 20%;
 }
@@ -161,7 +161,7 @@ START OF PAGE 1*/
 
 .main-text-img{
     float: right;
-    margin: 15px;
+    margin: 2vw;
     width: 20%;
 
 }
@@ -177,7 +177,7 @@ ol {
   }
   .tips-li {
     counter-increment: item;
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
   }
   .tips-li:before {
 
@@ -208,7 +208,7 @@ ol {
 .iframetips{
     width: auto;
 
-    margin: 20px;
+    margin: 2.5vw;
 }
 
 
@@ -242,7 +242,7 @@ tr:nth-child(even){
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 33% 33% 33%;
-        gap: 15px 15px;
+        gap: 2vw 2vw;
         grid-template-areas:
           "1 2"
           "3 4"
@@ -265,7 +265,7 @@ tr:nth-child(even){
   #tomato-animation {  
     width: 10em;
     height: 10em; 
-    margin: 20px auto;
+    margin: 2.5vw auto;
     border-radius: 50%;
 
  }
