@@ -169,3 +169,24 @@ START OF PAGE 1*/
 #fruitorvegetable{
     line-height: 20vh;
 }
+
+
+ol {
+    list-style: none;
+    counter-reset: item;
+  }
+  .tips-li {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+  .tips-li:before {
+
+    content: counter(item);
+    background: tomato;
+    border-radius: 100%;
+    color: white;
+    width: 1.5em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+  }
